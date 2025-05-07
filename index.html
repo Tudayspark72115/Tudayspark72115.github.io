@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Sudip_Gantait</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>        <section id="hero">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="my_image.jpg" alt="Sudip Gantait" id="profile-photo">
+                </div>
+                <h1>Sudip Gantait</h1>
+                <h2>Computational Chemist</h2>
+                <p>Exploring molecular interactions through computational chemistry</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>            <div class="about-content">
+                <p style="text-align: justify;">I’m a computational chemist specializing in molecular dynamics simulations with a focus on protein–nanomaterial interactions. My research interests encompass force field development, biomolecular modeling, and the integration of quantum mechanics with machine learning approaches. I combine advanced computational methods with chemical insights to investigate complex molecular systems and their behaviors.</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="timeline">                <div class="timeline-item">
+                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Research in Computational Chemistry</h3>
+                        <h4>Molecular Dynamics and Biomolecular Modeling</h4>
+                        <ul>
+                            <li>Conducting advanced molecular dynamics simulations of protein-nanomaterial interactions</li>
+                            <li>Developing and implementing force field parameters for complex molecular systems</li>
+                            <li>Applying machine learning techniques to analyze molecular simulation data</li>
+                            <li>Publishing research findings in peer-reviewed journals and presenting at conferences</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">                <div class="skill-category">                    <h3>Computational Methods</h3>
+                    <ul>
+                        <li>Molecular Dynamics Simulations</li>
+                        <li>Force Field Development</li>
+                        <li>Machine Learning in Chemistry</li>
+                        <li>Quantum Mechanical Calculations</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Research Expertise</h3>
+                    <ul>
+                        <li>Protein-Surface Interactions</li>
+                        <li>Biomolecular Modeling</li>
+                        <li>Surface Chemistry</li>
+                        <li>Nanomaterial Properties</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li>GROMACS/AMBER/NAMD</li>
+                        <li>Python/PyMOL/VMD</li>
+                        <li>Machine Learning Libraries</li>
+                        <li>High-Performance Computing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">                <div class="project-card">
+                    <h3>Peptide-Graphene Interaction Analysis</h3>
+                    <p>Led a comprehensive study on peptide interactions with graphene surfaces using molecular dynamics simulations. Analyzed conformational changes and their implications for biosensing and nanomedicine applications.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Force Field Comparative Analysis</h3>
+                    <p>Conducted comparative analysis of additive and polarizable force fields, evaluating their impact on protein conformational stability and interaction energetics. Demonstrated the crucial role of electronic polarization in biomolecular modeling.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Graphene Surface Properties Study</h3>
+                    <p>Investigated the surface properties of graphene and its physisorption behaviors through computational methods, contributing to the understanding of graphene-based materials in various applications.</p>
+                </div>
+            </div>
+        </section>        <section id="gallery">
+            <h2>Research Gallery</h2>
+            <div class="gallery-grid">                <div class="gallery-item">
+                    <div class="gallery-overlay">
+                        <h3>Molecular Dynamics Simulation</h3>
+                        <p>Visualization of protein-graphene interaction study</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-overlay">
+                        <h3>Force Field Analysis</h3>
+                        <p>Comparative study of molecular interactions</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-overlay">
+                        <h3>Computational Methods</h3>
+                        <p>Advanced simulation techniques in action</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="messageForm" onsubmit="return sendMessage(event)">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>                <div class="contact-links">                    <a href="mailto:sgantait721154@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://www.linkedin.com/in/sudip-gantait-057520292" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/Tudayspark72115" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </section></main>    <footer>
+        <p>&copy; 2025 Sudip Gantait. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
